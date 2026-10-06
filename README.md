@@ -1,0 +1,1 @@
+# Class Test\n\nRepository initialized. The bakery website is developed separately on the `frontend` branch.\n
