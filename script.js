@@ -1,0 +1,2 @@
+document.querySelectorAll('a[href^="#"]').forEach(link=>link.addEventListener('click',e=>{const target=document.querySelector(link.getAttribute('href'));if(target){e.preventDefault();target.scrollIntoView({behavior:'smooth'});}}));
+document.getElementById('orderForm').addEventListener('submit',e=>{e.preventDefault();alert('Thanks! Your order request has been received.');e.target.reset();});
